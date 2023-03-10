@@ -1052,7 +1052,7 @@ h6,
     margin: 15px 30px;
 }
 .con-serv  .price-ser .con-ser-1 .h6-ser{
-    font-size: 20px ;
+    font-size: 17px ;
     font-weight:  700 !important;
 }
 .con-serv  .price-ser .con-ser-1 .p-ser{
@@ -1116,15 +1116,15 @@ h6,
     align-items: flex-start;
     flex-direction: column;
 }
-.content-ser-1 .h4-ser{
+/* .content-ser-1 .h4-ser{
     margin: 10px;
-}
+} */
 .content-ser-1 .h5-ser{
     margin: 10px;
     background-color: #eee;
     padding: 15px;
-    line-height: 25px;
-    word-spacing: 4px;
+    line-height: 30px;
+    word-spacing: 3px;
     font-weight: 900 !important;
 }
 
@@ -1140,6 +1140,16 @@ h6,
   width: 70%;
 }
 
+.con-serv .btn-QA{
+    position:relative !important;
+    margin: 50px 0 !important;
+}
+.con-serv .btn-QA i{
+    position: absolute !important;
+    right:60px !important;
+    margin: auto 0 !important;
+    font-size:40px !important;
+}
 @media (min-width:1000px){
 .ser-other-ser{
     display: flex;
@@ -1147,4 +1157,38 @@ h6,
     gap: 50px;
     margin: 0 50px !important;
 } 
+}
+
+@media (max-width:1050px){
+    .btn-ser{
+       font-size: 20px;
+    }
+    .con-serv .btn-QA{
+        margin: 35px 0 !important;
+    }
+    .con-serv .btn-QA i{
+        right:20px !important;
+        top: 25%;
+        font-size: 30px !important;
+    }
+}
+@media (max-width:600px){
+    .btn-ser{
+        font-size: 15px;
+        width:90%;
+
+     }
+     .con-serv .btn-QA i{
+        font-size: 22px !important;
+        right:12px !important;
+     }
+     .h4-ser{
+        font-size: 19px !important;
+     }
+     .con-serv .btn-QA{
+        margin: 20px 0 !important;
+    }
+    .h5-ser{
+      font-size: 15px !important;
+    }
 }
